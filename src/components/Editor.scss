@@ -1,0 +1,17 @@
+.editor {
+    height: 100%;
+    &__inner {
+        height: 100%;
+        min-height: 100%;
+    }
+    &__body {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        min-height: 100%;
+        border: none;
+        resize: none;
+        outline: none;
+        font-size: 1em;
+    }
+}
